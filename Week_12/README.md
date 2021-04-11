@@ -6,9 +6,9 @@ Week12 作业题目：
 
 周三作业：
 
-**1.（必做）配置 redis 的主从复制，sentinel 高可用，Cluster 集群。**
+### 1.（必做）配置 redis 的主从复制，sentinel 高可用，Cluster 集群。**
 
-### 主从复制操作步骤：
+#### 主从复制操作步骤：
 
 - 复制一份Redis-x64-3.2.100的文件夹，为Redis-x64-3.2.100_slave
 - 修改Redis-x64-3.2.100_slave/redis.windows.conf里的配置文件
@@ -41,11 +41,11 @@ slaveof 127.0.0.1 6379
     - 在从库上写数据，从库写入不成功
 
 
-https://raw.githubusercontent.com/ZhiyuSun/JAVA-01/main/Week_12/pic/%E4%B8%BB%E4%BB%8E1.png
+![](https://raw.githubusercontent.com/ZhiyuSun/JAVA-01/main/Week_12/pic/%E4%B8%BB%E4%BB%8E1.png)
 
-https://raw.githubusercontent.com/ZhiyuSun/JAVA-01/main/Week_12/pic/%E4%B8%BB%E4%BB%8E2.png
+![](https://raw.githubusercontent.com/ZhiyuSun/JAVA-01/main/Week_12/pic/%E4%B8%BB%E4%BB%8E2.png)
 
-### sentinel高可用
+#### sentinel高可用
 
 - 复制一份Redis-x64-3.2.100的文件夹，重命名为Redis-x64-3.2.100_sentinel
 - 给Redis-x64-3.2.100_sentinel新增sentinel的配置文件sentinel.conf
@@ -67,19 +67,25 @@ sentinel parallel-syncs master 1
     - 6379已变成从库，无法写数据
     - 6380上写数据，可同步到主库
 
-https://raw.githubusercontent.com/ZhiyuSun/JAVA-01/main/Week_12/pic/sentinel.png
+![](https://raw.githubusercontent.com/ZhiyuSun/JAVA-01/main/Week_12/pic/sentinel.png)
 
-### redis集群
+#### redis集群
 
 todo
 
 周日作业：
 
-**1.（必做）搭建 ActiveMQ 服务，基于 JMS，写代码分别实现对于 queue 和 topic 的消息生产和消费，代码提交到 github。**
+### 1.（必做）搭建 ActiveMQ 服务，基于 JMS，写代码分别实现对于 queue 和 topic 的消息生产和消费，代码提交到 github。
 
 代码地址：
 
+queue:
 
+https://github.com/ZhiyuSun/JAVA-01/tree/main/Week_12/activemq/src/main/java/queue
+
+topic:
+
+https://github.com/ZhiyuSun/JAVA-01/tree/main/Week_12/activemq/src/main/java/topic
 
 
 ## 选做
