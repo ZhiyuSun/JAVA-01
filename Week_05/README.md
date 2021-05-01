@@ -3,7 +3,7 @@
 1.（选做）使 Java 里的动态代理，实现一个简单的 AOP。
 2.（必做）写代码实现 Spring Bean 的装配，方式越多越好（XML、Annotation 都可以）, 提交到 GitHub。
 
-
+https://github.com/ZhiyuSun/JAVA-01/tree/main/Week_05/beanloader
 
 3.（选做）实现一个 Spring XML 自定义配置，配置一组 Bean，例如：Student/Klass/School。
 
@@ -20,7 +20,7 @@ Week05 作业题目（周日）：
 3.（选做）总结 Hibernate 与 MyBatis 的各方面异同点。
 4.（必做）给前面课程提供的 Student/Klass/School 实现自动配置和 Starter。
 
-
+https://github.com/ZhiyuSun/JAVA-01/tree/main/Week_05/dynamicproxyAOP
 
 5.（选做）学习 MyBatis-generator 的用法和原理，学会自定义 TypeHandler 处理复杂类型。
 6.（必做）研究一下 JDBC 接口和数据库连接池，掌握它们的设计和用法：
@@ -28,3 +28,4 @@ Week05 作业题目（周日）：
 2）使用事务，PrepareStatement 方式，批处理方式，改进上述操作。
 3）配置 Hikari 连接池，改进上述操作。提交代码到 Github。
 
+https://github.com/ZhiyuSun/JAVA-01/tree/main/Week_05/jdbcdemo
