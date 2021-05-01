@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+                http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+    <!--使用set方式装配Student实例-->
+    <bean id="studentA" class="com.beanfactory.clazz.Student">
+        <property name="id" value="123"/>
+        <property name="name" value="AAA"/>
+    </bean>
+
+    <bean id="studentB" class="com.beanfactory.clazz.Student">
+        <property name="id" value="124"/>
+        <property name="name" value="BBB"/>
+    </bean>
+
+    <!--使用构造注入方式装配Student实例-->
+    <!--<bean id="studentB" class="com.beanfactory.clazz.Student">-->
+        <!--<constructor-arg index="0" value="124"></constructor-arg>-->
+        <!--<constructor-arg index="1" value="BBB"></constructor-arg>-->
+    <!--</bean>-->
+
+    <!--实现接口的实例-->
+    <bean id="school" class="com.beanfactory.clazz.School"/>
+
+    <bean id="klass" class="com.beanfactory.clazz.Klass">
+        <property name="students">
+            <list>
+                <ref bean="studentA" />
+                <ref bean="studentB" />
+            </list>
+        </property>
+        <property name="school" ref="school"/>
+    </bean>
+</beans>
