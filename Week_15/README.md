@@ -13,6 +13,9 @@
 8)分布式缓存
 9)分布式消息队列
 
+脑图：
+https://github.com/ZhiyuSun/JAVA-01/blob/main/Week_15/Java%E8%BF%9B%E9%98%B6%E8%AE%AD%E7%BB%83%E8%90%A5.xmind
+
 ## JVM
 
 jvm本质上就是一个程序，当它命令行上启动时，就开始执行保存在某字节码中的文件指令。

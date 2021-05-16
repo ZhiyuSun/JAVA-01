@@ -21,6 +21,7 @@
 实现 update 方法，配合 @CachePut
 实现 delete 方法，配合 @CacheEvict
 将示例中的 spring 集成 Lettuce 改成 jedis 或 redisson
+
 4.（必做）基于 Redis 封装分布式数据操作：
 
 在 Java 中实现一个简单的分布式锁；

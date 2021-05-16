@@ -14,7 +14,12 @@ https://github.com/ZhiyuSun/JAVA-01/blob/main/Week_02/homework/01_GC%E6%97%A5%E5
 
 自己Java基础太差，要把总结写的完美很难。自己在本地模拟了老师课上跑的几个例子，并且参考一些其他资料，总结了各个GC特点如下：
 
-
+串行GC（Serial GC）: 单线程执行，应用需要暂停；
+并行GC（ParNew、Parallel Scavenge、Parallel Old）: 多线程并行地执行垃圾回收，
+关注与高吞吐；
+CMS（Concurrent Mark-Sweep）: 多线程并发标记和清除，关注与降低延迟；
+G1（G First）: 通过划分多个内存区域做增量整理和回收，进一步降低延迟；
+ZGC（Z Garbage Collector）: 通过着色指针和读屏障，实现几乎全部的并发执行，几毫秒级别的延迟，线性可扩展；
 
 ## Week02 作业题目（周日）：
 
