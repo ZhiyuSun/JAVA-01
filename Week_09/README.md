@@ -7,10 +7,14 @@
 3.（必做）改造自定义 RPC 的程序，提交到 GitHub：
 
 尝试将服务端写死查找接口实现类变成泛型和反射；
+
+https://github.com/ZhiyuSun/JAVA-01/tree/main/Week_09/rpc01/rpcfx-demo-provider
+
 尝试将客户端动态代理改成 AOP，添加异常处理；
+
+https://github.com/ZhiyuSun/JAVA-01/tree/main/Week_09/rpc01/rpcfx-demo-api
+
 尝试使用 Netty+HTTP 作为 client 端传输方式。
-
-
 
 
 4.（选做☆☆））升级自定义 RPC 的程序：

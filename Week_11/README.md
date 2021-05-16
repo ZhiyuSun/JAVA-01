@@ -26,11 +26,11 @@
 在 Java 中实现一个简单的分布式锁；
 在 Java 中实现一个分布式计数器，模拟减库存。
 
-
+https://github.com/ZhiyuSun/java_project/blob/main/src/main/java/redis/DistributedLock.java
 
 5.（必做）基于 Redis 的 PubSub 实现订单异步处理
 
-
+todo
 
 1.（挑战☆）基于其他各类场景，设计并在示例代码中实现简单 demo：
 

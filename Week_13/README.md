@@ -24,7 +24,7 @@ kafka-console-producer.bat --broker-list localhost:9092 --topic testDemo
 消费者
 kafka-console-consumer.bat --zookeeper localhost:2181 --topic testDemo
 
-
+代码：https://github.com/ZhiyuSun/java_project/tree/main/src/main/java/kafka
 
 
 2.（选做）安装 kafka-manager 工具，监控 kafka 集群状态。
