@@ -27,7 +27,7 @@ create table if not exists `trade`(
 ) default charset=utf8mb4 comment '订单表';
 ```
 
-todo
+https://github.com/ZhiyuSun/JAVA-01/tree/main/Week_07/batchinsert
 
 3.（选做）按自己设计的表结构，插入 1000 万订单模拟数据，测试不同方式的插入效
 4.（选做）使用不同的索引或组合，测试不同方式查询效率
@@ -39,11 +39,11 @@ todo
 1.（选做）配置一遍异步复制，半同步复制、组复制
 2.（必做）读写分离 - 动态切换数据源版本 1.0
 
-
+https://github.com/ZhiyuSun/JAVA-01/tree/main/Week_07/read-write-separate1
 
 3.（必做）读写分离 - 数据库框架版本 2.0
 
-
+https://github.com/ZhiyuSun/JAVA-01/tree/main/Week_07/read-write-separate2
 
 4.（选做）读写分离 - 数据库中间件版本 3.0
 5.（选做）配置 MHA，模拟 master 宕机
